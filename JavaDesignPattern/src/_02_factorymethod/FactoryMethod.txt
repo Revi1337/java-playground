@@ -1,0 +1,11 @@
+* Factory Method Pattern 이 해결하려는 목적은 다음과 같다.
+
+1. 객체 및 인스턴스를 생성하는 책임을 구체클래스가 아닌, 추상적인 Interface 의 메서드로 감싸는 것이다.
+   --> Java 8 이상부터는 Interface 를 사용할 수 있고, Java 9 이상부터는 Interface 에 Private 메서드를 선언할 수 있기 때문에
+       인스턴스를 생성하는 책임을 interface 내에서 default 메서드와 private 메서드로 해결할 수 있다.
+
+   --> 만약 자바 8 을 사용해서 Interface 에 Private 메서드를 사용할 수 없다면, Interface 를 구현받는 클래스 혹은 추상클래스를 만들어 depth 를 1 추가하고
+    상속으로 해결해 줄 수 있다.
+
+
+* 객체를 생성할 때 Factory Method Pattern 을 사용하면 SOLID 의 OCP(Open-Closed Principal) 를 지킬 수 있다. --> 확장에는 Open, 기존코드의 변경은 Closed
