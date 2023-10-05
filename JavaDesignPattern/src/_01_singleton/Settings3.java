@@ -1,4 +1,4 @@
-package Singleton;
+package _01_singleton;
 
 /**
  * Singleton 을 ThreadSafe 하게 할 수 있는 두번째 방법.

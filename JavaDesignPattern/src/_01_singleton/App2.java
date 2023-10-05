@@ -1,4 +1,4 @@
-package Singleton;
+package _01_singleton;
 
 
 import java.io.*;
