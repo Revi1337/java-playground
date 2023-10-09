@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b3a1b0-8cda-4f77-b386-4c3c3e9897db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_02_factorymethod/_01_before_java_9/_01_after/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02_factorymethod/_01_before_java_9/_01_after/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Java/JavaDesignPattern",
+    "last_opened_file_path": "D:/Java/JavaDesignPattern/src/_04_builder/_03_java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,24 +64,24 @@
       <recent name="_03_abstractfactory._02_after" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\JavaDesignPattern\src\_04_builder\_03_java" />
+      <recent name="D:\Java\JavaDesignPattern\src\_04_builder\_02_after" />
+      <recent name="D:\Java\JavaDesignPattern\src\_04_builder\_01_before" />
       <recent name="D:\Java\JavaDesignPattern" />
       <recent name="D:\Java\JavaDesignPattern\src\_03_abstractfactory\_01_before" />
-      <recent name="D:\Java\JavaDesignPattern\src\_02_factorymethod\_03_java\_01_before" />
-      <recent name="D:\Java\JavaDesignPattern\src\_02_factorymethod\_before_java_8" />
-      <recent name="D:\Java\JavaDesignPattern\src\_02_factorymethod\_after_java_8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_03_abstractfactory._02_after" />
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DocumentBuilderFactoryExample">
-    <configuration name="CalendarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_factorymethod._03_java.CalendarExample" />
+  <component name="RunManager" selected="Application.StreamExample">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_builder._01_before.App" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_factorymethod._03_java.*" />
+          <option name="PATTERN" value="_04_builder._01_before.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShipInventory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_03_abstractfactory._02_after.ShipInventory" />
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_builder._03_java.StreamExample" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_03_abstractfactory._02_after.*" />
+          <option name="PATTERN" value="_04_builder._03_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_factorymethod._01_after.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_factorymethod._01_after.Client" />
+    <configuration name="StringBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_builder._03_java.StringBuilderExample" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_factorymethod._01_after.*" />
+          <option name="PATTERN" value="_04_builder._03_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_factorymethod._01_before_java_9._01_after.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_factorymethod._01_before_java_9._01_after.Client" />
+    <configuration name="_04_builder._02_after.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_builder._02_after.App" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_factorymethod._01_before_java_9._01_after.*" />
+          <option name="PATTERN" value="_04_builder._02_after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.StringBuilderExample" />
+        <item itemvalue="Application._04_builder._02_after.App" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.DocumentBuilderFactoryExample" />
-        <item itemvalue="Application.ShipInventory" />
-        <item itemvalue="Application._02_factorymethod._01_before_java_9._01_after.Client" />
-        <item itemvalue="Application.CalendarExample" />
-        <item itemvalue="Application._02_factorymethod._01_after.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +162,7 @@
       <workItem from="1696481477671" duration="11925000" />
       <workItem from="1696497768598" duration="14928000" />
       <workItem from="1696761583350" duration="14165000" />
-      <workItem from="1696803269907" duration="945000" />
+      <workItem from="1696803269907" duration="7858000" />
     </task>
     <servers />
   </component>
