@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="53b3a1b0-8cda-4f77-b386-4c3c3e9897db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_04_builder/_03_java/LombokExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_builder/_03_java/LombokExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_04_builder/_03_java/SpringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_builder/_03_java/SpringExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,31 +34,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Java/JavaDesignPattern/src/_05_prototype/_03_java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/JavaDesignPattern/src/_05_prototype/_03_java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "DockerIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;DockerIgnore&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="_03_abstractfactory._02_after" />
@@ -77,13 +75,13 @@
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._05_prototype._02_after.App">
+  <component name="RunManager" selected="Application._01_creational_patterns._05_prototype._02_after.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_builder._01_before.App" />
+      <option name="MAIN_CLASS_NAME" value="_01_creational_patterns._04_builder._01_before.App" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_builder._01_before.*" />
+          <option name="PATTERN" value="_01_creational_patterns._04_builder._01_before.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_builder._03_java.StreamExample" />
+      <option name="MAIN_CLASS_NAME" value="_01_creational_patterns._04_builder._03_java.StreamExample" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_builder._03_java.*" />
+          <option name="PATTERN" value="_01_creational_patterns._04_builder._03_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="StringBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_builder._03_java.StringBuilderExample" />
+      <option name="MAIN_CLASS_NAME" value="_01_creational_patterns._04_builder._03_java.StringBuilderExample" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_builder._03_java.*" />
+          <option name="PATTERN" value="_01_creational_patterns._04_builder._03_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_04_builder._02_after.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_builder._02_after.App" />
+    <configuration name="_01_creational_patterns._04_builder._02_after.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_creational_patterns._04_builder._02_after.App" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_builder._02_after.*" />
+          <option name="PATTERN" value="_01_creational_patterns._04_builder._02_after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_05_prototype._02_after.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_prototype._02_after.App" />
+    <configuration name="_01_creational_patterns._05_prototype._02_after.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_creational_patterns._05_prototype._02_after.App" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_prototype._02_after.*" />
+          <option name="PATTERN" value="_01_creational_patterns._05_prototype._02_after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,10 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._05_prototype._02_after.App" />
+        <item itemvalue="Application._01_creational_patterns._05_prototype._02_after.App" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.StringBuilderExample" />
-        <item itemvalue="Application._04_builder._02_after.App" />
+        <item itemvalue="Application._01_creational_patterns._04_builder._02_after.App" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -164,7 +162,8 @@
       <workItem from="1696481477671" duration="11925000" />
       <workItem from="1696497768598" duration="14928000" />
       <workItem from="1696761583350" duration="14165000" />
-      <workItem from="1696803269907" duration="12200000" />
+      <workItem from="1696803269907" duration="14768000" />
+      <workItem from="1699162753059" duration="283000" />
     </task>
     <servers />
   </component>
