@@ -18,4 +18,19 @@ public interface HelloService {
         }
     }
 
+    static private void prepareMessage() {}
+
+    static String hi() {
+        prepareMessage();
+        return "hi";
+    }
+
+    static String h2() {
+        prepareMessage();
+        return "hi2";
+    }
+
+    default String bye() {
+        return "bye";
+    }
 }
