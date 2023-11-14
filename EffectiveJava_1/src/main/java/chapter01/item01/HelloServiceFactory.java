@@ -1,6 +1,8 @@
 package chapter01.item01;
 
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Optional;
 import java.util.ServiceLoader;
 
@@ -22,9 +24,14 @@ public class HelloServiceFactory {
      *                       --> 무슨 말이냐.. ServiceLoader 의 팩토리 메서드(load)를 작성하는 시점에는 Interface 만 있고 Interface 의 구현체가 존재하지 않아도 참조할 수 있는다른 classpath 에서 HelloService 의 구현체들을 모두 가져올 수 있다는 의미.
      * @param args
      */
-    public static void main(String[] args) {
-        ServiceLoader<HelloService> loader = ServiceLoader.load(HelloService.class);
-        Optional<HelloService> helloServiceOptional = loader.findFirst();
-        helloServiceOptional.ifPresent(helloService -> System.out.println(helloService.hello()));
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+//        ServiceLoader<HelloService> loader = ServiceLoader.load(HelloService.class);
+//        Optional<HelloService> helloServiceOptional = loader.findFirst();
+//        helloServiceOptional.ifPresent(helloService -> System.out.println(helloService.hello()));
+
+        Class<?> aClass = Class.forName("chapter01.item01.EnglishHelloService");
+        Constructor<?> constructor = aClass.getConstructor();
+        HelloService helloService = (HelloService) constructor.newInstance();
+        System.out.println(helloService.hello());
     }
 }
